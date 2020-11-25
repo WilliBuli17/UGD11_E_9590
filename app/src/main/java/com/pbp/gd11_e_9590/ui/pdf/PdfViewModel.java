@@ -1,4 +1,4 @@
-package com.pbp.gd11_x_yyyy.ui.pdf;
+package com.pbp.gd11_e_9590.ui.pdf;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel;
 
 public class PdfViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+    private final MutableLiveData<String> mText;
 
     public PdfViewModel() {
         mText = new MutableLiveData<>();
