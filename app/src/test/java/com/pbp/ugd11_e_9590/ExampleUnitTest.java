@@ -1,4 +1,4 @@
-package com.pbp.gd11_e_9590;
+package com.pbp.ugd11_e_9590;
 
 import org.junit.Test;
 

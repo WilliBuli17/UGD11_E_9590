@@ -1,4 +1,4 @@
-package com.pbp.gd11_e_9590.ui.home;
+package com.pbp.ugd11_e_9590.ui.home;
 
 import android.graphics.Color;
 import android.net.Uri;
@@ -18,7 +18,7 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.imagepipeline.core.ImagePipelineConfig;
 import com.facebook.imagepipeline.listener.RequestListener;
 import com.facebook.imagepipeline.listener.RequestLoggingListener;
-import com.pbp.gd11_e_9590.R;
+import com.pbp.ugd11_e_9590.R;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -64,7 +64,7 @@ public class HomeFragment extends Fragment {
         //menentukan view untuk memilih recycler view mana yang digunakan
         @Override
         public int getItemViewType(int position) {
-            if (position==1 || position==3 || position==5 || position==7 || position==9) {
+            if (position==4 || position==6 /*|| position==5 || position==7 || position==9*/) {
                 return 1;
             }
             return 0;
@@ -86,12 +86,12 @@ public class HomeFragment extends Fragment {
         }
         @Override
         public void onBindViewHolder(@NotNull MyHolder holder, int position) {
-            if (position==1 || position==5 || position==9) {
+            if (position==6 /*|| position==5 || position==9*/) {
                 //menampilkan gambar pada recycler view dengan resource drawable
                 holder.windowImageView.bindRecyclerView(rv);
                 holder.windowImageView.setFrescoEnable(false);
-                holder.windowImageView.setImageResource(R.drawable.longs);
-            } else if (position==3 || position==7) {
+                holder.windowImageView.setImageResource(R.drawable.longs2);
+            } else if (position==4 /*|| position==7*/) {
                 //menampilkan gambar pada recycler view dengan resource luar menggunakan fresco
                 holder.windowImageView.bindRecyclerView(rv);
                 holder.windowImageView.setFrescoEnable(true);

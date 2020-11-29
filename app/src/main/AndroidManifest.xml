@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pbp.gd11_e_9590">
+    package="com.pbp.ugd11_e_9590">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
@@ -18,7 +18,7 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name="com.pbp.gd11_e_9590.MainActivity"
+            android:name="com.pbp.ugd11_e_9590.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.GD11_E_9590.NoActionBar">
             <intent-filter>
@@ -29,7 +29,7 @@
         </activity>
 
         <provider
-            android:name="com.pbp.gd11_e_9590.GenericFileProvider"
+            android:name="com.pbp.ugd11_e_9590.GenericFileProvider"
             android:authorities="${applicationId}.provider"
             android:exported="false"
             android:grantUriPermissions="true">

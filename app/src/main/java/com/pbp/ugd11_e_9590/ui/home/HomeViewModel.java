@@ -1,4 +1,4 @@
-package com.pbp.gd11_e_9590.ui.home;
+package com.pbp.ugd11_e_9590.ui.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

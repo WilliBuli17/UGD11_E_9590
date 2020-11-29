@@ -1,4 +1,4 @@
-package com.pbp.gd11_e_9590.ui.pdf;
+package com.pbp.ugd11_e_9590.ui.pdf;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.pbp.gd11_e_9590.R;
+import com.pbp.ugd11_e_9590.R;
 
 public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaAdapter.MahasiswaViewHolder> {
     private Context context;

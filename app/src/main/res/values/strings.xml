@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GD11_E_9590</string>
+    <string name="app_name">UGD11_E_9590</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">GUIDED LIBRARY 2</string>
@@ -30,4 +30,11 @@
     <string name="no">No.</string>
     <string name="nim">NIM</string>
     <string name="nama">Nama</string>
+    <string name="homelon">Homelon</string>
+    <string name="rp_15000">Rp 15000</string>
+    <string name="gramedia">Gramedia</string>
+    <string name="data_buku">Data Buku</string>
+    <string name="file_name">File Name</string>
+    <string name="file_size">File Size</string>
+    <string name="o_oo_kb">O.OO Kb</string>
 </resources>

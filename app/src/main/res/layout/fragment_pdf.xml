@@ -13,9 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="76dp"
-        android:text="@string/data_mahasiswa"
+        android:text="@string/data_buku"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +25,8 @@
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2">
@@ -36,7 +37,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvMhs"
                 android:layout_width="match_parent"
-                android:layout_height="300dp" />
+                android:layout_height="450dp" />
         </LinearLayout>
     </ScrollView>
 
@@ -45,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="163dp"
         android:text="@string/cetak"
         app:layout_constraintEnd_toEndOf="parent"

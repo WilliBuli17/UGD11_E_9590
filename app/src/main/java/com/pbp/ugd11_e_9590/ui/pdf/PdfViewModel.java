@@ -1,4 +1,4 @@
-package com.pbp.gd11_e_9590.ui.pdf;
+package com.pbp.ugd11_e_9590.ui.pdf;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
